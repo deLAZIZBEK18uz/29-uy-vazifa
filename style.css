@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.boxx {
+    width: 100%;
+    background-color: orangered;
+    margin-top: 454px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.boxx .container2 {
+    width: 60%;
+    margin-left: 300px;
+    gap: 20px;
+}
+
+.boxx .container2 .oson {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: orangered;
+    background-color: #fff;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.boxx .container2 .and {
+    width: 100%;
+    height: 360px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.boxx .container2 .and .oxiri {
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: orangered;
+}
+
+
+.boxx .container2 .and .boshi {
+    width: 60%;
+    height: 100%;
+    color: orangered;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.boxx .container2 .tamom {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: orangered;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.box {
+    width: 800px;
+    height: 700px;
+    margin-left: 300px;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.box .container {
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.box main {
+    width: 100%;
+    height: 65%;
+    display: flex;
+}
+
+.box main .item {
+    width: 65%;
+    height: 100%;
+    background-color: rgb(44, 198, 198);
+    display: flex;
+    justify-content: center;
+}
+
+.box main .link {
+    width: 35%;
+    height: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.box main .link h2,
+.box main .item h2 {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.box footer {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(6, 255, 6);
+}
